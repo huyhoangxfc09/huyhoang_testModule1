@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính trung bình</title>
+</head>
+<body>
+    <script>
+        function findAvg(point){
+            let sum = 0;
+            for (let i = 0; i<=point.length-1; i++){
+                sum+=point[i];
+            }
+            return sum / point.length;
+        }
+        let point = [8,6,9,8,4,5,2,6];
+        document.write('Điểm trung bình là: '+findAvg(point));
+
+
+    </script>
+</body>
+</html>
