@@ -28,12 +28,10 @@
         }
     }
     let myRectangle = new Rectangle(200,100);
-    let width = myRectangle.getWidth();
-    let height = myRectangle.getHeight();
     let canvas = document.getElementById("Canvas");
     let ctx = canvas.getContext('2d');
     ctx.fillStyle='rgba(179,255,246,0.89)';
-    ctx.fillRect(60, 80, width, height)
+    ctx.fillRect(60, 80, myRectangle.getWidth(), myRectangle.getHeight())
 </script>
 </body>
 </html>
